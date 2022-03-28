@@ -654,12 +654,17 @@ footer {
     float: left;
 }
 
+.project-image img {
+    max-width: 300px;
+}
+
 .project-info {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
+    text-align: left;
 
     h3 {
         font-size: 1.5em;
